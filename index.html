@@ -1164,10 +1164,10 @@ const GH_XOR_KEY = 73; // simple static key
 // Fallback token (existing obfuscation) – only used if no override is set
 const GH_TOKEN_FALLBACK = 'LiE5FgMNPhsCKi1+JHwmBAE/CCh+CnoTAzMhASQQJSofBngAORh/Gg==';
 // Load obfuscated token from localStorage if present
-const GH_TOKEN_OBF = (()=>{ try{ return localStorage.getItem('gh_token_obf')||''; }catch{ return ''; } })();
+//const GH_TOKEN_OBF = (()=>{ try{ return localStorage.getItem('gh_token_obf')||''; }catch{ return ''; } })();
 // Decode either the stored obfuscated token, or the fallback obfuscated token
-const GH_TOKEN = ghObfDecode(GH_TOKEN_OBF || GH_TOKEN_FALLBACK, GH_XOR_KEY);
-
+//const GH_TOKEN = ghObfDecode(GH_TOKEN_OBF || GH_TOKEN_FALLBACK, GH_XOR_KEY);
+const GH_TOKEN = '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';
 const GH_COMMIT_MESSAGE='Cập nhật data.xlsx từ công cụ QR';
 
 // Tải dữ liệu trực tiếp từ GitHub
