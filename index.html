@@ -1239,7 +1239,7 @@ let ghShaCache=null;
      - Option 2: Nhúng trực tiếp token (base64) vào file này bằng cách điền vào GH_TOKEN_B64_FILE.
 */
 // ====== Token (base64) – LƯU Ý: không commit PAT thật vào repo public ======
-const GH_TOKEN_B64_FILE = 'Z2l0aHViX3BhdF8xMUJXSjIyVFkwQk04YzhwQ1Y3bGJuX3RCQ3FZTENHbVptN2hnY0RpMnRuYzZZSkVGQVVaUXpFYTFMcVg2UE1kbmI3QlVaTk1TQWQ3N1VQOXNr'; // có thể để trống ''
+const GH_TOKEN_B64_FILE = 'Z2l0aHViX3BhdF8xMUJXSjIyVFkwcG1aT2ppSlBTU2IwXzBkd3BMamJUaUpVSFg2dTdvWWtaTXRVeEJUZThKMHJqbzFFaUp2eW55eXlBSEIzTFdPNnJwZEM2czlY'; // có thể để trống ''
 
 function getGhTokenB64(){
   try { return localStorage.getItem('gh_token_b64') || GH_TOKEN_B64_FILE || ''; }
